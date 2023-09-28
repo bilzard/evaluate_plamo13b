@@ -10,12 +10,6 @@ This repository manages the source code for reproducing the evaluation results o
 | -------- | --------- | ------------- |
 | acc_norm | **54.8%** | 53.4%         |
 
-## Install
-
-```
-pip install -r requirements.txt
-```
-
 ## Run benchmark
 
 ```bash
