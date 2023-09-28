@@ -8,8 +8,8 @@ This repository manages the source code for reproducing the evaluation results o
 
 | model| acc_norm (1-shot; this repo) | acc_norm (reported in [1]) |
 | ------------------ | ---------- | ----- |
-| Japanese StableLM Alpha 7B | 51.0 | **75.9** (27.7\*) |
-| PLaMo-13B | **54.8**  | 53.4 |
+| PLaMo-13B[2] | **54.8**  | 53.4 |
+| Japanese StableLM Alpha 7B[3] | 51.0 | **75.9** (27.7\*) |
 
 \* without changing prompt
 
@@ -26,3 +26,5 @@ This repository manages the source code for reproducing the evaluation results o
 ## Reference
 
 - [1] https://tech.preferred.jp/ja/blog/llm-plamo/
+- [2] https://huggingface.co/pfnet/plamo-13b
+- [3] https://huggingface.co/stabilityai/japanese-stablelm-base-alpha-7b
