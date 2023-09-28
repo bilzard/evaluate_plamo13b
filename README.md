@@ -6,14 +6,21 @@ This repository manages the source code for reproducing the evaluation results o
 
 **Table1. Benchmark Result of JCommonsenseQA**
 
-|          | PLaMo-13B (1-shot)    | PLaMo-13B reported[1] |
-| -------- | --------- | ------------- |
-| acc_norm | **54.8%** | 53.4%         |
+| model| acc_norm (1-shot; this repo) | acc_norm (reported in [1]) |
+| ------------------ | ---------- | ----- |
+| Japanese StableLM Alpha 7B | 51.0 | **75.9** (27.7\*) |
+| PLaMo-13B | **54.8**  | 53.4 |
+
+* without changing prompt
 
 ## Run benchmark
 
 ```bash
+# PLaMo-13B
 ./run_notebook.sh eval_plamo13b_jcommonsenseqa
+
+# Japanese StableLM Alpha 7B
+./run_notebook.sh eval_japanese-stablelm-base-alpha-7b_jcommonsenseqa
 ```
 
 ## Reference
