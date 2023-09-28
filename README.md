@@ -11,7 +11,7 @@ This repository manages the source code for reproducing the evaluation results o
 | Japanese StableLM Alpha 7B | 51.0 | **75.9** (27.7\*) |
 | PLaMo-13B | **54.8**  | 53.4 |
 
-* without changing prompt
+\* without changing prompt
 
 ## Run benchmark
 
